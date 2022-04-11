@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.success {
+    border-left: 6px solid #388E3C;
+    .mat-simple-snackbar-action {
+        color: #388E3C;
+    }
+}
+
+.warning {
+    border-left: 6px solid #F57F17;
+    .mat-simple-snackbar-action {
+        color: #F57F17;
+    }
+}
+
+.info {
+    border-left: 6px solid #17a2b8;
+    .mat-simple-snackbar-action {
+        color: #17a2b8;
+    }
+}
+
+.danger {
+    border-left: 6px solid #E64A19;
+    .mat-simple-snackbar-action {
+        color: #E64A19;
+    }
+}
